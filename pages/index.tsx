@@ -1,7 +1,11 @@
+import { Typography } from "@mui/material";
+
 export default function Home() {
   return (
     <>
-      <h1>Spartec app</h1>
+      <Typography variant="h4" gutterBottom>
+        Spartec app
+      </Typography>
     </>
   );
 }
